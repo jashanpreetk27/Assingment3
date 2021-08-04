@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.btn{
+    height: 10vh;
+    width: 20vw;
+    color: lightsalmon;
+    background:none;
+    font: 2rem cursive;
+    border:0.2rem solid lightsalmon;
+}
+.btn:hover{
+    color: #fff;
+    border: .2rem solid #F5FDB0;
+    box-shadow: 0 10px 10px -8px #e0f521;
+    transform: translateY(-10px);
+    transition: ease-out .2s;
+}
